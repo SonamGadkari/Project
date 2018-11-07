@@ -48,15 +48,15 @@ top: 50px;
 left: 0px;
 animation-name: drive;
 animation-duration: 3s; 
-animation-fill-mode: forwards;
+animation-fill-mode: backwards;
 animation-delay: 2s;
 }
 
 
 @keyframes drive
 {	
-from{ transform: translateX(0px)}
-to{ transform: translateX(900px) }
+from{ transform: translateX(900px)}
+to{ transform: translateX(0px) }
 }
 
 img {
